@@ -1,3 +1,8 @@
 var playlist = { michel : "heal the world" };
 
-function updatePlaylist ({playlist:"mychennel"} , {artistName: "michel"},{songTitle: "balck and white"})
+function updatePlaylist (playlist,aritstName, songTitle){
+  playlist[aritstName] = songTitle
+
+  return playlist
+
+}
